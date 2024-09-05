@@ -65,8 +65,28 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-content: flex-start;
     gap: 20px;
+}
+
+.container5 {
+    height: 160px;
+    width: 468px;
+    background-color: rgb(207, 34, 60);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 10px; 
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.o-cont5__cardtext {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .o-container__card {
@@ -75,4 +95,27 @@ body {
     background-color: rgb(9, 9, 89);
     border: none;
     border-radius: 6px;
+}
+
+.o-cont4__cardup {
+    position: relative;
+    display: flex;
+    align-self: flex-start;
+}
+
+.o-cont4__carddown {
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+}
+
+.o-cont5_cardstretch {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.o-cont5_cardsqueeze {
+
 }
