@@ -5,7 +5,7 @@ body {
 .o-page {
     height: 100vh;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
@@ -18,7 +18,7 @@ body {
     padding: 20px;
     margin: 10px;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     align-content: end;
     gap: 20px;
 }
@@ -43,7 +43,7 @@ body {
     padding: 20px;
     margin: 10px; 
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: end;
     align-content: center;
     gap: 20px;
@@ -69,7 +69,8 @@ body {
     padding: 20px;
     margin: 10px; 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-content: center;
     gap: 20px;
 }
 
@@ -81,24 +82,10 @@ body {
     padding: 20px;
     margin: 10px; 
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     gap: 20px;
-}
-
-.o-cardstretch__text {
-    color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.o-cardsqueeze__text {
-    color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .o-container__card {
@@ -119,36 +106,50 @@ body {
 
 .o-cont4__cardup {
     height: 78px;
-    position: relative;
     display: flex;
     align-self: flex-start;
 }
 
 .o-cont4__carddown {
     height: 78px;
-    position: relative;
     display: flex;
     align-self: flex-end;
 }
 
 .o-cont5__cardstretch {
-    position: relative;
     display: flex;
     justify-content: center;
+    align-self: center;
 }
 
 .o-cont5__cardsqueeze {
-    position: relative;
     display: flex;
+    justify-content: center;
     align-self: center;
 }
 
 .o-cont6__card {
+    height: 78px;
     display: flex;
     justify-self: flex-start;
 }
 
 .o-cont6__cardstretch {
+    height: 78px;
     display: flex;
     flex-grow: 0.5;
+}
+
+.o-cardstretch__text {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.o-cardsqueeze__text {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
