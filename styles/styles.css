@@ -3,7 +3,8 @@ body {
 }
 
 .o-page {
-    height: 100vh;
+    /* height: 100vh; */
+    /* position: absolute; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -119,7 +120,7 @@ body {
 .o-cont5__cardstretch {
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-self: stretch;
 }
 
 .o-cont5__cardsqueeze {
